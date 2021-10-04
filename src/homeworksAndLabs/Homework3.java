@@ -2,6 +2,13 @@ package homeworksAndLabs;
 
 import java.util.Scanner;
 
+
+// Calculator that can continuously run calculations by entering "yes" after every completed computation.
+// This is done via a do while loop in the main method.
+// All operation methods are outside and returning output in the main.
+// I have incluuded and exit function using System.exit to terminate the program whenever the user intends to.
+
+
 public class Homework3 {
 	
 	public static void main(String[] args) {
@@ -82,4 +89,6 @@ public class Homework3 {
 			
 				
 	}
+
+
 
