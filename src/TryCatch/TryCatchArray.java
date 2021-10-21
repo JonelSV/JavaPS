@@ -14,7 +14,7 @@ public class TryCatchArray {
 		
 		try {
 			int number = Integer.parseInt(input);
-			System.out.println("Error: parseInt not right");
+			System.out.println("Error: NumberFormatException, parseInt not right");
 		}catch (NumberFormatException e) {
 			System.out.println(e.getMessage());
 		}
